@@ -1,0 +1,32 @@
+* {
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: Roboto;
+    height: 100vh;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.top {
+    padding: 0 50px;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.logo img {
+    height: 59px;
+}
+
+.top a {
+    text-decoration: none;
+    color: inherit;
+}
