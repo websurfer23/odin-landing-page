@@ -8,10 +8,6 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
-}
-
-.top {
     padding: 0 50px;
     height: 80px;
     border: 2px solid black;
@@ -20,13 +16,14 @@ body {
     align-items: center;
     font-size: 18px;
     color: #F9FAF8;
+    background-color: #1F2937;
 }
 
 .logo img {
     height: 59px;
 }
 
-.top a {
+.header a {
     text-decoration: none;
     color: inherit;
 }
