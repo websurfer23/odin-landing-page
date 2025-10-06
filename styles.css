@@ -135,3 +135,20 @@ h2 {
     font-size: 18px;
     text-align: end;
 }
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 760px;
+    gap: 20px;
+    padding: 40px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.think {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
