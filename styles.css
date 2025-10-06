@@ -5,7 +5,7 @@
 body {
     font-family: Roboto;
     height: 100vh;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .header {
@@ -48,6 +48,7 @@ a:hover {
     background-color: #1F2937;
     color: #E5E7EB;
     gap: 0;
+    flex-wrap: wrap;
 }
 
 .hero-content {
@@ -55,7 +56,7 @@ a:hover {
     margin-right: -50px;
 }
 
-.hero-content button {
+.button {
     padding: 5px 8px;
     border-radius: 8px;
     background-color: #3882F6;
@@ -76,4 +77,61 @@ a:hover {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+}
+
+.item img {
+    width: 250px;
+    min-height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.italic {
+    width: 760px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.steve {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 400px;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: end;
 }
