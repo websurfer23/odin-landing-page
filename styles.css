@@ -25,9 +25,18 @@ body {
 
 }
 
-.header a {
+.header a, ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     text-decoration: none;
     color: inherit;
+    list-style-type: none;
+}
+
+a:hover {
+  transform: scale(1.1);
 }
 
 .hero-section {
