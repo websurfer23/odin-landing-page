@@ -5,6 +5,7 @@
 body {
     font-family: Roboto;
     height: 100vh;
+    text-align: center;
 }
 
 .header {
